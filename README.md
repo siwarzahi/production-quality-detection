@@ -1,2 +1,13 @@
-# production-quality-detection
-Production Quality Detection System – Embedded system on Raspberry Pi 5 with camera and YOLOv8 for real-time defect detection. When a defect is found, the system captures an image and sends an automatic email alert with details (type, confidence, timestamp).
+# 📦 Production Quality Detection System
+
+## 📝 Description
+This project is an embedded system for real-time product quality supervision.  
+It uses **Raspberry Pi 5 + Camera** with **YOLOv8 (TensorFlow)** to detect defects in production lines.  
+When a defect is found, the system sends an **email alert** with details and the captured image.
+
+## 🛠️ Technologies Used
+- Raspberry Pi 5  
+- Python 3, OpenCV, TensorFlow, YOLOv8  
+- SMTP (for email alerts)  
+- Linux Embedded (Raspberry Pi OS)
+
