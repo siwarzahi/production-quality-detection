@@ -22,9 +22,9 @@ DETECTION_CONFIDENCE = 0.5
 MAX_QUEUE_SIZE = 1
 
 EMAIL_CONFIG = {
-    'sender': 'siwarzahi10@gmail.com',
-    'password': 'pelr ennj odam nmrs',
-    'receiver': 'siwarzahi10@gmail.com',
+    'sender': 'your email',
+    'password': '************',
+    'receiver': 'receiver mail',
     'smtp_server': 'smtp.gmail.com',
     'smtp_port': 465
 }
@@ -229,3 +229,4 @@ finally:
     cv2.destroyAllWindows()
     total_exec_time = time.time() - global_start_time
     print(f"Arrêt du programme - Temps total: {total_exec_time:.2f} secondes")
+
